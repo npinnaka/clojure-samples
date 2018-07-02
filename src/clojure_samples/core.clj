@@ -11,3 +11,5 @@
 
 ;;; everything is a function in clojure
 
+;;function class
+(-main)
