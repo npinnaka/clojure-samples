@@ -1,7 +1,13 @@
+;; name space decleration
 (ns clojure-samples.core
-  (:gen-class))
+  ;(:require)
+  ;(:import)
+  (:gen-class)) ;;gen class is optional used for inheritence and composition
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+(defn -main ;; function name
+  "I don't do a whole lot ... yet." ;; doc strings
+  [& args] ;; parameters
+  (println "Hello, World!")) ;; print line function.
+
+;;; everything is a function in clojure
+
