@@ -1,5 +1,5 @@
 ;; name space decleration
-(ns clojure-samples.overloading-with-sum
+(ns clojure-samples.t13-overloading-with-sum
   ;(:require)
   ;(:import)
   (:gen-class))

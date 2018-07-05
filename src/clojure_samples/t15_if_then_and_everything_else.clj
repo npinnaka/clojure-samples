@@ -1,4 +1,4 @@
-(ns clojure-samples.if-then-and-everything-else
+(ns clojure-samples.t15-if-then-and-everything-else
   ;(:require)
   ;(:import)
   (:gen-class))

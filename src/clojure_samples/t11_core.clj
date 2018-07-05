@@ -1,5 +1,5 @@
 ;; name space decleration
-(ns clojure-samples.core
+(ns clojure-samples.t11-core
   ;(:require)
   ;(:import)
   (:gen-class)) ;;gen class is optional used for inheritence and composition

@@ -1,4 +1,4 @@
-(ns clojure-samples.and-or
+(ns clojure-samples.t14-and-or
   ;(:require)
   ;(:import)
   (:gen-class))

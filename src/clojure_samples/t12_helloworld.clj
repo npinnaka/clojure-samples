@@ -1,5 +1,5 @@
 ;; name space decleration
-(ns clojure-samples.helloworld
+(ns clojure-samples.t12-helloworld
   ;(:require)
   ;(:import)
   (:gen-class))
