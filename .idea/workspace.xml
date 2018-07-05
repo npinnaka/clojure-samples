@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e7f4ae6-cf8e-4582-a3a7-ffdd18fc5940" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/clojure_samples/t17_iterations.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clojure_samples/t11_core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clojure_samples/t11_core.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clojure_samples/t12_helloworld.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clojure_samples/t12_helloworld.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clojure_samples/t13_overloading_with_sum.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clojure_samples/t13_overloading_with_sum.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clojure_samples/t14_and_or.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clojure_samples/t14_and_or.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clojure_samples/t15_if_then_and_everything_else.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clojure_samples/t15_if_then_and_everything_else.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clojure_samples/t16_cond_when.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clojure_samples/t16_cond_when.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clojure_samples/t17_iterations.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/clojure_samples/t17_iterations.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,8 +47,8 @@
       <file leaf-file-name="t17_iterations.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clojure_samples/t17_iterations.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -211,12 +205,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530589666930</updated>
       <workItem from="1530589668186" duration="2310000" />
-      <workItem from="1530744746660" duration="394000" />
+      <workItem from="1530744746660" duration="1080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2704000" />
+    <option name="totallyTimeSpent" value="3390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
@@ -231,11 +225,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32928178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928178" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928178" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -331,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clojure_samples/t17_iterations.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
