@@ -64,7 +64,7 @@
 (next my-list) ;; looks for next elements and if not found returns nil
 (rest my-list) ;; apply seq on rest of the elements; never returns nil and if no elements found returns seq also lazy
 
-;; apped a to list
+;; append a to list
 (conj my-list 0) ;; conj on list always appends first
 
 ;;join two list
@@ -72,3 +72,11 @@
 (conj '(1 2 3) '(4 5 6)) ;; returns ((4 5 6) 1 2 3)
 (concat '(1 2 3) '(4 5 6)) ;; returns (1 2 3 4 5 6)
 (cset/union '(1 2 3) '(4 5 6)) ;; return (6 5 4 1 2 3)
+
+
+;sorting
+(into (sorted-set-by > ) my-list)
+(sorted-set-by <  5 6 3 6 8 4 2 )
+
+;removing elements
+(drop 1 my-list)

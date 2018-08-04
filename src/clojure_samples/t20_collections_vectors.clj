@@ -59,13 +59,22 @@
 
 
 ;subvector
+(pop my-vector)
+(subvec my-vector 2)
 (next my-vector);; looks for next elements and if not found returns nil
 (rest my-vector);; apply seq on rest of the elements; never returns nil and if no elements found returns seq also lazy
 
-;; apped a to vector
+;; append a to vector
 (conj my-vector 7) ;; conj on list always appends last
 
 ;;join list
 (conj [1 2 3] [4 5 6]) ;; returns [1 2 3 [4 5 6]]
 (concat [1 2 3] [4 5 6]) ;; returns sequence (1 2 3 4 5 6)
 (cset/union [1 2 3] [4 5 6]) ;; return [1 2 3 4 5 6]
+
+;sorting
+(into (sorted-set-by > ) my-vector)
+(sorted-set-by <  5 6 3 6 8 4 2 )
+
+;; removing eleements
+(drop 1 my-vector)
