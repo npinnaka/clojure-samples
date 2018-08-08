@@ -78,5 +78,9 @@
 (into (sorted-set-by > ) my-list)
 (sorted-set-by <  5 6 3 6 8 4 2 )
 
+;; searching
+(filter #(= % 4) my-list)
+(filter #(= % 9) my-list)
+
 ;removing elements
 (drop 1 my-list)

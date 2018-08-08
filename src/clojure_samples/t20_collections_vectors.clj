@@ -76,5 +76,11 @@
 (into (sorted-set-by > ) my-vector)
 (sorted-set-by <  5 6 3 6 8 4 2 )
 
+;;searching
+(contains? my-vector 4) ;; return true or false
+(get my-vector 4) ;; not 4th element we are looking for 4; returns value or nul
+(get my-vector 9)
+(filter #(= % 4) my-vector)
+
 ;; removing eleements
 (drop 1 my-vector)

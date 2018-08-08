@@ -2,7 +2,8 @@
 
 (hash-map :one 1 :two 2)
 
-(def my-map {:one 1 :two 2 :three 3})
+(def my-map {:one 1 :two 2 :three 3}) ;; :strings are keywords
+(def another-map {"a" 1 "b" 2}) ;; any pairs are for maps
 
 (type my-map)
 
@@ -62,11 +63,13 @@
 
 ;; by keys
 (my-map :one)
-
 (:one my-map)
+(get my-map :one) ;;; get has null pointer exception protection
+(get my-map :x "not found") ;;; get has null pointer exception protection
 
-(get my-map :one)
-(get my-map :x "not found")
+
+(keys my-map)
+(vals my-map)
 
 ;submap
 (next my-map)
@@ -88,10 +91,15 @@
 
 ;; returns a seq of vector;; each vector can be changes as map using into
 (into {} (concat my-map {:four 4}))
-(into (sorted-map) (concat my-map {:four 4}))
 (merge my-map {:four 4 :five 5}
        {:six 6}
        {:seven 7})
+
+;; sorting
+(into (sorted-map) (concat my-map {:four 4}))
+
+;;searching
+(get my-map :three)
 
 ;remove elements
 (dissoc my-map :three)
